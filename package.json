@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thorsten-secstack/mempro-client.git"
+    "url": "https://github.com/kennymustdie/mempro-client.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.1"
