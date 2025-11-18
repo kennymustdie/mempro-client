@@ -1,0 +1,26 @@
+{
+  "name": "mempro-client",
+  "version": "4.0.0",
+  "description": "MEMPRO V4 MCP Client - Zentrale Memory-Verbindung zu Hetzner Backend",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mempro-client": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "memory", "claude", "rag", "openmemory", "zep"],
+  "author": "Thorsten SecStack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thorsten-secstack/mempro-client.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
